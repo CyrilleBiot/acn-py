@@ -1,0 +1,8 @@
+#/bin/sh
+
+if [ "$EUID" -ne 0 ]
+  then echo "Droits root nécessaires."
+  exit
+fi
+
+/usr/bin/python3 /home/ragnarok/package-debian/acn-py/usr/share/application/acn-py.py 
