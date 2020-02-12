@@ -4,10 +4,12 @@ Autoconfiguration and installation of a apt-cacher-ng server and configuration o
 ## Dowload the dir acn-py
 
 ## Build the deb packge
+Download the source and debian dirs.
+
+Build the package
 
 ```
-$ dpkg --build acn-py/
-# dpkg -i acn-py.deb
+$ debuild -us -uc
 ```
 
 ## Requires
