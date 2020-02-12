@@ -1,9 +1,0 @@
-Package: acn-py
-Version: 2.0.0
-Section: base
-Priority: optional
-Architecture: all
-Depends: python3, python3-nmap
-Maintainer: Cyrille <cyrille@cbiot.fr>
-Description: Installation et Configuration Client / Serveur d'apt-cacher-ng et de cron-apt. Serveur de cache apt et installation automatique des mises à jour de sécurité.
-Homepage: https://cbiot.fr/

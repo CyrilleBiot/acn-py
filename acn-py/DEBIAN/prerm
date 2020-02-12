@@ -1,6 +1,0 @@
-#!/bin/sh
-# Delete special conf files
-[ -f /etc/apt/apt.conf.d/00aptproxyANC ] && rm -rf /etc/apt/apt.conf.d/00aptproxyANC
-[ -f /etc/apt/sources.list.d/security-primtuxACN.list ] && rm -rf /etc/apt/sources.list.d/security-primtuxACN.list
-[ -f /etc/cron-apt/action.d/5-primtuxACN-security ] && rm -rf /etc/cron-apt/action.d/5-primtuxACN-security
-echo "Delete special conf files. OK."
