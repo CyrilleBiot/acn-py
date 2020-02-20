@@ -2,15 +2,15 @@ Format: 1.0
 Source: acn-py
 Binary: acn-py
 Architecture: all
-Version: 2.0.2+nmu5
+Version: 2.0.3
 Maintainer: Cyrille Biot <cyrille@cbiot.fr>
 Homepage: https://github.com/CyrilleBiot/acn-py
 Build-Depends: debhelper (>= 9)
 Package-List:
  acn-py deb admin optional arch=all
 Checksums-Sha1:
- 7353014bf88f5ac0fd224b8bb6772cd62560c3f5 7189 acn-py_2.0.2+nmu5.tar.gz
+ 354b496c80f3478dfe19a5f33aad5f0b6936a0a5 7213 acn-py_2.0.3.tar.gz
 Checksums-Sha256:
- 50f60acca6a78d9c6fe2480c8227b438237b509664b8239118d86cbfe19475c0 7189 acn-py_2.0.2+nmu5.tar.gz
+ c12febf865f14b12c8b4e196572b6884dc278d7037ee4756909b6cc07b33745c 7213 acn-py_2.0.3.tar.gz
 Files:
- c518feff3de458f123a5971d35f47d9a 7189 acn-py_2.0.2+nmu5.tar.gz
+ c9ec71016f8e96e6a2ee5275fba398f4 7213 acn-py_2.0.3.tar.gz

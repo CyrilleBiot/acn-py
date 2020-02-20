@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 20 Feb 2020 14:08:47 +0100
+Source: acn-py
+Binary: acn-py
+Architecture: source all
+Version: 2.0.3
+Distribution: unstable
+Urgency: medium
+Maintainer: Cyrille Biot <cyrille@cbiot.fr>
+Changed-By: <ragnarok@Fenrir.home>
+Description:
+ acn-py     - Autoconfiguration and installation of a apt-cacher-ng server and
+Changes:
+ acn-py (2.0.3) unstable; urgency=medium
+ .
+   * Fix install path (/usr/share/)
+Checksums-Sha1:
+ a3f1e242e16a494fae9d08f790e2a3f195e783c6 507 acn-py_2.0.3.dsc
+ 354b496c80f3478dfe19a5f33aad5f0b6936a0a5 7213 acn-py_2.0.3.tar.gz
+ 9e3126e4eb47d24869cb99ef6d57e983451f95ff 7584 acn-py_2.0.3_all.deb
+ 86f740585e51730d891deb513d799d37e3c4db33 4926 acn-py_2.0.3_amd64.buildinfo
+Checksums-Sha256:
+ a943146d3028dc89a3b48b4f88b0d8ab8f0153c8bfed8e1bb946dbd301d50807 507 acn-py_2.0.3.dsc
+ c12febf865f14b12c8b4e196572b6884dc278d7037ee4756909b6cc07b33745c 7213 acn-py_2.0.3.tar.gz
+ afc28af0eb0b956a3e32d87de616731dc2ca380c0a1e1066a44b333872a19d25 7584 acn-py_2.0.3_all.deb
+ 5022f972daec192e8a1c1ff348bfb6de1e200bb1df20f0c0d89243624b6b04c6 4926 acn-py_2.0.3_amd64.buildinfo
+Files:
+ c838f84a7d32afb83469abb9194aa424 507 admin optional acn-py_2.0.3.dsc
+ c9ec71016f8e96e6a2ee5275fba398f4 7213 admin optional acn-py_2.0.3.tar.gz
+ a73fb2f16d1ad991493e5f476a14e922 7584 admin optional acn-py_2.0.3_all.deb
+ 3a4d9f4c99212e2eddea8e7b640c3952 4926 admin optional acn-py_2.0.3_amd64.buildinfo
