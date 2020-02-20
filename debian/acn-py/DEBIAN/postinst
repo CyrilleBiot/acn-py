@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "-----------------------------------------------------------------------"
+echo "Files creating during installation client installation  :"
+echo "/etc/apt/apt.conf.d# cat /etc/apt/apt.conf.d/00aptproxyANC "
+echo "/etc/cron-apt/action.d/5-primtuxACN-security"
+echo "/etc/apt/sources.list.d/security-primtuxACN.list"
+echo "-----------------------------------------------------------------------"
+echo "Files creating during installation server installation  :"
+echo "/etc/cron-apt/action.d/5-primtuxACN-security"
+echo "/etc/apt/sources.list.d/security-primtuxACN.list"
+echo "-----------------------------------------------------------------------"
+echo "To run the configurator tool : # acn-py or $ sudo acn-py"
+echo "-----------------------------------------------------------------------"
+
+    
+
+

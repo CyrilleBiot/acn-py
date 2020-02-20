@@ -1,3 +1,3 @@
 source/acn-py usr/sbin/
-source/acn-py.py usr/share/application/acn-py/
+source/acn-py.py usr/share/acn-py/
 source/acn-py.8.gz usr/share/man/man8/

@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: paquet source acn-py
-dpkg-buildpackage: info: version source 2.0.2+nmu5
+dpkg-buildpackage: info: version source 2.0.3
 dpkg-buildpackage: info: distribution source unstable
 dpkg-buildpackage: info: source changé par  <ragnarok@Fenrir.home>
  dpkg-source --before-build .
@@ -14,11 +14,11 @@ dh clean
 dpkg-source: avertissement: aucun format source indiqué dans debian/source/format, voir dpkg-source(1)
 dpkg-source: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section générale dans le fichier info
 dpkg-source: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section du paquet dans le fichier info
-dpkg-source: avertissement: répertoire source « acn-py » n'est pas <paquet_source>-<version_amont> « acn-py-2.0.2+nmu5 »
+dpkg-source: avertissement: répertoire source « acn-py » n'est pas <paquet_source>-<version_amont> « acn-py-2.0.3 »
 dpkg-source: info: utilisation du format source « 1.0 »
-dpkg-source: info: construction de acn-py dans acn-py_2.0.2+nmu5.tar.gz
+dpkg-source: info: construction de acn-py dans acn-py_2.0.3.tar.gz
 dpkg-source: avertissement: information manquante pour le champ de sortie Standards-Version
-dpkg-source: info: construction de acn-py dans acn-py_2.0.2+nmu5.dsc
+dpkg-source: info: construction de acn-py dans acn-py_2.0.3.dsc
  debian/rules build
 dh build
    dh_update_autotools_config
@@ -45,9 +45,9 @@ dpkg-gencontrol: avertissement: champ d'information inconnu « Version » dans
 dpkg-gencontrol: avertissement: champ Depends du paquet acn-py : substitution variable ${shlibs:Depends} used, but is not defined
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'acn-py' in '../acn-py_2.0.2+nmu5_all.deb'.
+dpkg-deb: building package 'acn-py' in '../acn-py_2.0.3_all.deb'.
  dpkg-genbuildinfo
- dpkg-genchanges  >../acn-py_2.0.2+nmu5_amd64.changes
+ dpkg-genchanges  >../acn-py_2.0.3_amd64.changes
 dpkg-genchanges: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section générale dans le fichier info
 dpkg-genchanges: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section du paquet dans le fichier info
 dpkg-genchanges: info: inclusion du code source original dans l'envoi (« upload »)
@@ -55,11 +55,12 @@ dpkg-genchanges: info: inclusion du code source original dans l'envoi (« uploa
 dpkg-source: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section générale dans le fichier info
 dpkg-source: avertissement: champ d'information inconnu « Version » dans les données d'entrée de section du paquet dans le fichier info
 dpkg-buildpackage: info: envoi complet ; paquet Debian natif (inclusion du code source complet)
-Now running lintian acn-py_2.0.2+nmu5_amd64.changes ...
+Now running lintian acn-py_2.0.3_amd64.changes ...
 E: acn-py changes: changed-by-name-missing <ragnarok@Fenrir.home>
 E: acn-py: extended-description-is-empty
 E: acn-py source: no-standards-version-field
-E: acn-py: python-script-but-no-python-dep usr/share/application/acn-py/acn-py.py #!python
+E: acn-py: python-script-but-no-python-dep usr/share/acn-py/acn-py.py #!python
+W: acn-py source: changelog-should-mention-nmu
 W: acn-py: description-too-long
 W: acn-py: executable-not-elf-or-script usr/sbin/acn-py
 W: acn-py source: extra-whitespace-around-name-in-changelog-trailer
@@ -73,5 +74,6 @@ W: acn-py source: maintainer-script-lacks-debhelper-token debian/postinst
 W: acn-py source: maintainer-script-lacks-debhelper-token debian/prerm
 W: acn-py source: missing-debian-source-format
 W: acn-py source: package-needs-versioned-debhelper-build-depends 11
-W: acn-py: wrong-bug-number-in-closes l61:#XXXXXX
+W: acn-py source: source-nmu-has-incorrect-version-number 2.0.3
+W: acn-py: wrong-bug-number-in-closes l67:#XXXXXX
 Finished running lintian.

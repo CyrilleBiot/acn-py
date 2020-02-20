@@ -2,19 +2,19 @@ Format: 1.0
 Source: acn-py
 Binary: acn-py
 Architecture: all source
-Version: 2.0.2+nmu5
+Version: 2.0.3
 Checksums-Md5:
- cd3dacd57eb18a1e7d49706fd41f3d14 527 acn-py_2.0.2+nmu5.dsc
- 385d39b07103e815b2571c6fff5050e6 7604 acn-py_2.0.2+nmu5_all.deb
+ c838f84a7d32afb83469abb9194aa424 507 acn-py_2.0.3.dsc
+ a73fb2f16d1ad991493e5f476a14e922 7584 acn-py_2.0.3_all.deb
 Checksums-Sha1:
- ffee1ade9b7b97acbe41c4a0b8533c8c8c471e51 527 acn-py_2.0.2+nmu5.dsc
- fe97e5962330907be3cb97a9016b74eb18ff1716 7604 acn-py_2.0.2+nmu5_all.deb
+ a3f1e242e16a494fae9d08f790e2a3f195e783c6 507 acn-py_2.0.3.dsc
+ 9e3126e4eb47d24869cb99ef6d57e983451f95ff 7584 acn-py_2.0.3_all.deb
 Checksums-Sha256:
- 607c7ce182e310e79e7d66a9ea934a52707fd96b9648879abeb084cbfbcd9260 527 acn-py_2.0.2+nmu5.dsc
- f5a22fefefb99a3d957fc55b73ac38e04b5c020bb06ea63a9e4e68091344fa17 7604 acn-py_2.0.2+nmu5_all.deb
+ a943146d3028dc89a3b48b4f88b0d8ab8f0153c8bfed8e1bb946dbd301d50807 507 acn-py_2.0.3.dsc
+ afc28af0eb0b956a3e32d87de616731dc2ca380c0a1e1066a44b333872a19d25 7584 acn-py_2.0.3_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 12 Feb 2020 20:20:08 +0100
+Build-Date: Thu, 20 Feb 2020 14:10:39 +0100
 Build-Tainted-By:
  usr-local-has-libraries
  usr-local-has-programs
@@ -178,4 +178,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1581535169"
+ SOURCE_DATE_EPOCH="1582204127"
